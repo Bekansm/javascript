@@ -24,7 +24,7 @@ console.log(isMember.toString());
 //task5
 let cartItems = 0;
 cartItems = cartItems == 0;
-console.log(cartItems)
+console.log(cartItems);
 
 //task6
 let averageScore = 89.75695;
