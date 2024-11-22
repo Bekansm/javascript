@@ -13,11 +13,11 @@ function drink(){
         drink();
     }  else {
 
-        if (userInput == 'Утро') {
+        if (userInput.toLowerCase() == 'утро') {
             alert("Выпейте кофе");
-        } else if (userInput == 'День') {
+        } else if (userInput.toLowerCase() == 'день') {
             alert("Выпейте чай");
-        } else if (userInput == 'Вечер') {
+        } else if (userInput.toLowerCase() == 'вечер') {
             alert("Выпейте горячий шоколад");
         } else {
             alert("Введите один из предложенных вариантов");
